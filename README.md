@@ -10,10 +10,12 @@
 
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [License](#License)
+- [is-sentry-dsn](#is-sentry-dsn)
+    - [Table of Contents](#table-of-contents)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Contribute](#contribute)
+    - [License](#license)
 
 ## Install
 
@@ -28,7 +30,9 @@ $ yarn add is-sentry-dsn
 ## Usage
 
 ```js
+import isSentryDSN from 'is-sentry-dsn'
 
+isSentryDSN('foobarbaz') // false
 ```
 
 ## Contribute
