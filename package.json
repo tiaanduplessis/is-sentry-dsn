@@ -1,0 +1,25 @@
+{
+  "name": "is-sentry-dsn",
+  "version": "1.0.0",
+  "description": "Check if string is Sentry DSN",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/is-sentry-dsb",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "format": "prettier-standard './**/*.js'",
+    "pretest": "yarn format && yarn lint",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "prettier-standard": "^9.1.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
